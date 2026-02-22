@@ -1,4 +1,7 @@
 package com.example.mycityapp.model
 
-class Category {
-}
+
+data class CityCategory(
+    val id: String,
+    val title: String
+)
